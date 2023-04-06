@@ -1,5 +1,5 @@
 {
   "watch": ["."],
   "ext": "ts",
-  "exec": "tsc && ts-node"
+  "exec": "tsc --noEmit && ts-node"
 }

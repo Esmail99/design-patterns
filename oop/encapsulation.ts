@@ -1,4 +1,6 @@
-export class Car {
+export {};
+
+class Car {
   private color: string = "black";
   private speed: number = 0;
 

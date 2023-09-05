@@ -1,5 +1,7 @@
 export {};
 
+// Inheritance is a mechanism that allows a class to inherit properties
+// and methods from another class.
 class Car {
   private make: string;
   private model: string;

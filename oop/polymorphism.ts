@@ -1,8 +1,7 @@
 export {};
 
 // Polymorphism allows objects of different classes to be treated as objects of a common superclass.
-// It enables the implementation of generic code that can work with objects of
-// various types, promoting flexibility and extensibility.
+// It enables the implementation of generic code that can work with objects of various types.
 class Animal {
   constructor(private name: string) {}
 

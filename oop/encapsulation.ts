@@ -1,5 +1,9 @@
 export {};
 
+// Encapsulation is the concept of bundling data (variables)
+// and the methods that operate on that data within a single unit (class).
+// It helps in hiding the internal implementation details
+// and exposing a well-defined interface to interact with the object.
 class Car {
   private color: string = "black";
   private speed: number = 0;

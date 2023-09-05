@@ -1,5 +1,7 @@
 export {};
 
+// Abstraction involves simplifying complex systems by modeling classes based on
+// their essential characteristics while ignoring irrelevant details.
 abstract class MessageQueue<T> {
   abstract push(message: T): void;
 
